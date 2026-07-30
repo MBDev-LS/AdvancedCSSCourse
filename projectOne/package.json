@@ -1,0 +1,19 @@
+{
+  "name": "projectone",
+  "version": "1.0.0",
+  "description": "Practice landing page for nature tours company.",
+  "license": "ISC",
+  "author": "Louis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"compile:sass": "sass sass/main.scss css/style.comp.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.102.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
+  }
+}
